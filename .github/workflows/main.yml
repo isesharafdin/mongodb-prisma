@@ -18,4 +18,4 @@ jobs:
           node-version: '16'
 
       - name: Simulate Downloads
-        run: node simulateDownloads.mjs
+        run: node src/middlewares/middleware.
