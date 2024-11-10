@@ -6,9 +6,9 @@ import https from 'https';  // Import the https module to make HTTPS requests
  *                               Default is set to 5000 milliseconds (5 seconds).
  */
 async function simulateDownloads(intervalTime = 5000) {  // Default interval set to 5 seconds
-  const packageName = 'yonode';  // Hardcoded package name
-  const version = '1.2.4';  // Hardcoded package version
-  const downloadTarget = 1000;  // Hardcoded target download count
+  const packageName = 'yocode';  // Hardcoded package name
+  const version = '1.0.0-alpha';  // Hardcoded package version
+  const downloadTarget = 23;  // Hardcoded target download count
 
   // Construct the URL to fetch the package from npm registry
   const url = `https://registry.npmjs.org/${packageName}/-/${packageName}-${version}.tgz`;
