@@ -7,7 +7,7 @@ import https from 'https';  // Import the https module to make HTTPS requests
  */
 async function simulateDownloads(intervalTime = 5000) {  // Default interval set to 5 seconds
   const packageName = 'yocode';  // Hardcoded package name
-  const version = '1.0.0-alpha';  // Hardcoded package version
+  const version = '1.0.0-alpha.2';  // Hardcoded package version
   const downloadTarget = 100;  // Hardcoded target download count
 
   // Construct the URL to fetch the package from npm registry
